@@ -1,0 +1,616 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [androidx.databinding:viewbinding:7.1.3] /home/magjan/.gradle/caches/transforms-3/e34b4ddb334eaf00a99c2c6ae5eae04c/transformed/jetified-viewbinding-7.1.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] /home/magjan/.gradle/caches/transforms-3/4d8965efd7e56b97fdc6efa185961aa3/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.4.0-alpha02] /home/magjan/.gradle/caches/transforms-3/24f11c12e0ad93b465438f77a93475f0/transformed/jetified-room-ktx-2.4.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] /home/magjan/.gradle/caches/transforms-3/94f1598045dc5c7c3d545ef6b08bc55e/transformed/jetified-lifecycle-livedata-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /home/magjan/.gradle/caches/transforms-3/3802582875c001f73f46a614acb7f652/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.4.0] /home/magjan/.gradle/caches/transforms-3/0a7b5e91e093a348160f1693fb73e28f/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/magjan/.gradle/caches/transforms-3/b47d41f3c27121110ea4019bc7e2fd29/transformed/constraintlayout-2.1.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.0] /home/magjan/.gradle/caches/transforms-3/a52d7ed3a31a0a13e44670ddc7d0bd8f/transformed/appcompat-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/magjan/.gradle/caches/transforms-3/8ee8f586b9f1657453b4cf23c4fc5455/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.multidex:multidex:2.0.1] /home/magjan/.gradle/caches/transforms-3/5bbdb75c97b6134ca9dfa077d33d14ee/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:hilt-android:2.40.4] /home/magjan/.gradle/caches/transforms-3/38a8ac2ca56dc21c8f00027f3ea7b33e/transformed/jetified-hilt-android-2.40.4/AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/magjan/.gradle/caches/transforms-3/31b25426ba7468f52cdc2e1fb2dd2176/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/magjan/.gradle/caches/transforms-3/5b6837fdfb97706fc5671d9e60d6d861/transformed/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.firebase:firebase-messaging-ktx:22.0.0] /home/magjan/.gradle/caches/transforms-3/7c0078a328ff80a2280763bc642599b8/transformed/jetified-firebase-messaging-ktx-22.0.0/AndroidManifest.xml:17:1-35:12
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/magjan/.gradle/caches/transforms-3/25b2619af366eaa6a3c70b77c7b7c9df/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.room:room-runtime:2.4.0-alpha02] /home/magjan/.gradle/caches/transforms-3/ab23702bd0062f5ec7f499c470d1eec1/transformed/room-runtime-2.4.0-alpha02/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/magjan/.gradle/caches/transforms-3/ebf27f369c2341fd5aa123cba410d1c7/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/magjan/.gradle/caches/transforms-3/294525cad20ca7cfb4dd968a2cc4845d/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] /home/magjan/.gradle/caches/transforms-3/b70f56dcc117caa1e415237490dc532d/transformed/recyclerview-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/magjan/.gradle/caches/transforms-3/3c63e42266e647f67c04c06a7f6401ea/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/magjan/.gradle/caches/transforms-3/8403e13d0237d841196b71e5c7821fda/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/magjan/.gradle/caches/transforms-3/ff873a93b84a17ebb578a077608618ee/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/magjan/.gradle/caches/transforms-3/a21aa04690d0a51bdc4f7c6167dbb442/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:17:1-58:12
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/magjan/.gradle/caches/transforms-3/ce665695ed0ec42c9a8560726979f662/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/magjan/.gradle/caches/transforms-3/191024a164cc2fda73f6a056b6998cd5/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/magjan/.gradle/caches/transforms-3/715fcad9b5a223e710714f4bd879d09c/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] /home/magjan/.gradle/caches/transforms-3/2cae3290337c165004e2fab45e9df72d/transformed/jetified-firebase-appcheck-interop-16.0.0-beta04/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/magjan/.gradle/caches/transforms-3/e2c26d6e12fccde42f444b6604298d42/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/magjan/.gradle/caches/transforms-3/017538c5b1a553165ed93b17f02c2bfc/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/magjan/.gradle/caches/transforms-3/48cfdbdd9453f70d0ee5842364f51d6a/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/magjan/.gradle/caches/transforms-3/3c4a50cb5635141d7da6cfc0c0098a62/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/magjan/.gradle/caches/transforms-3/f556286c8ed218dd0dfa9bf0bd9c5b0d/transformed/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/magjan/.gradle/caches/transforms-3/8f1eea2fa6f66dbd638c8f15f6f3ce7e/transformed/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/magjan/.gradle/caches/transforms-3/6c1d7e9c93195288b58c7a8be8418bc9/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/magjan/.gradle/caches/transforms-3/b6b39ae8ee4217e89e9a2e9be13503d0/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/magjan/.gradle/caches/transforms-3/7a28b8506f025448ff97ca6b5ecd9ad9/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/magjan/.gradle/caches/transforms-3/291cedbf534a85f3f21aa86d0962b94c/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /home/magjan/.gradle/caches/transforms-3/be52214dcfe4e66abb1aa3f844cd08a4/transformed/jetified-play-services-basement-17.2.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/magjan/.gradle/caches/transforms-3/21b9e2518ddd434f875dfd20c69fcca4/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /home/magjan/.gradle/caches/transforms-3/4c104efff8ebdef9ec8d719002db41b8/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/magjan/.gradle/caches/transforms-3/7ee416269acd398604757fbcac130a01/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/magjan/.gradle/caches/transforms-3/f85647626f064d140c97184bdae46834/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/magjan/.gradle/caches/transforms-3/952dc9f7d05007996210e066ebc9fa60/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/magjan/.gradle/caches/transforms-3/998dc9306c810c2800349aabbd655e15/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/magjan/.gradle/caches/transforms-3/2555bd30e8d5f0644e61b7e8da4f121e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/magjan/.gradle/caches/transforms-3/ec718f88d81831135d6b3a7166f86d5c/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/magjan/.gradle/caches/transforms-3/4bc7baf7c99be6975b1b50250e98e3d5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/magjan/.gradle/caches/transforms-3/930d04f505c3fa8b9b7b183616b7073f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.3.1] /home/magjan/.gradle/caches/transforms-3/60e0addd88fe25f5f707cc6d82426d1c/transformed/jetified-activity-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /home/magjan/.gradle/caches/transforms-3/3ed6cb1d61029b22c9fa93839b6ef4a2/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/magjan/.gradle/caches/transforms-3/84137e6bbc9ae180bb461db9f29a0025/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/magjan/.gradle/caches/transforms-3/7b0938f87cd4ca997827e9ee4dabdb2e/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/magjan/.gradle/caches/transforms-3/7ea6c1911d3ab9b38f5c16b0ba57f764/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/magjan/.gradle/caches/transforms-3/e82c3b3b8c6810c6e95bdf305d94c3ae/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/magjan/.gradle/caches/transforms-3/e2225bcd6fd7280aee190f954e3804ad/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/magjan/.gradle/caches/transforms-3/f52cab98ecbdc9e815d8ae9b2e440aef/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /home/magjan/.gradle/caches/transforms-3/30af886d5ba6884973c185215bc0676f/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/magjan/.gradle/caches/transforms-3/d1d290ce7fda9846cf7233c36443deb9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/magjan/.gradle/caches/transforms-3/c3a1bd6d85d801193c87decedcab2e47/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/magjan/.gradle/caches/transforms-3/8a8ad28e2c9bf1bf7e1187cfc6bfe87d/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] /home/magjan/.gradle/caches/transforms-3/ca52569bd4898d44e661b9765d277fa1/transformed/lifecycle-viewmodel-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/magjan/.gradle/caches/transforms-3/0d03a84ed05199cffed66b40008aa6f2/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/magjan/.gradle/caches/transforms-3/d260447d3343f59384c6269013732f2d/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/magjan/.gradle/caches/transforms-3/35505ebcd7676dd7d94fdb4637ef92e6/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/magjan/.gradle/caches/transforms-3/1d1ae0a36c8f2602dbd4a23574905675/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/magjan/.gradle/caches/transforms-3/8268854d64a7bb691ffcebd60a1455cd/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/magjan/.gradle/caches/transforms-3/5681b0009722d1874dfb4c039654f70d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/magjan/.gradle/caches/transforms-3/c0c83e1e9c84eb76757fbbb6e4d207f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/magjan/.gradle/caches/transforms-3/ac9d71aa4b5f69fa2f8a2ee1aaac578e/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /home/magjan/.gradle/caches/transforms-3/c57859b7e933f3f333b2d9a02494ceb9/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] /home/magjan/.gradle/caches/transforms-3/ea88e9515d1fa7d202c07de269284319/transformed/jetified-lifecycle-livedata-core-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] /home/magjan/.gradle/caches/transforms-3/c1b253f6010fdc39343a22a21650959b/transformed/lifecycle-livedata-core-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/magjan/.gradle/caches/transforms-3/0f1dd19807b856429e7ff222886f7235/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/magjan/.gradle/caches/transforms-3/c2debbe4fdb243b01eef39e4541ad031/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/magjan/.gradle/caches/transforms-3/028766cdaa6681fb2cf84ccb17e6bdce/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/magjan/.gradle/caches/transforms-3/68a89401943806c3df13114a75a7d899/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/magjan/.gradle/caches/transforms-3/0861a0a281b149dce46707915d5a9b05/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/magjan/.gradle/caches/transforms-3/423dbd124bd8aeedf22e26218ee9da95/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/magjan/.gradle/caches/transforms-3/ff52577fea74ee3e3ab84488060d0775/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/magjan/.gradle/caches/transforms-3/21ce3b8b9ec6c10c3c2b7acbfb16d463/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/magjan/.gradle/caches/transforms-3/518b13f2c53dfa6d08cea3d3442c85ff/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/magjan/.gradle/caches/transforms-3/f6dab8b540bb51a90a9ea4c2ba40302b/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/magjan/.gradle/caches/transforms-3/1d1ea9463d2dd74c0e6bd203c567a8b0/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.40.4] /home/magjan/.gradle/caches/transforms-3/3e8e52797d8afc373572583ee46172b5/transformed/jetified-dagger-lint-aar-2.40.4/AndroidManifest.xml:16:1-19:12
+INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml
+		INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:5:5-24:19
+MERGED from [com.google.android.material:material:1.4.0] /home/magjan/.gradle/caches/transforms-3/0a7b5e91e093a348160f1693fb73e28f/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /home/magjan/.gradle/caches/transforms-3/0a7b5e91e093a348160f1693fb73e28f/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/magjan/.gradle/caches/transforms-3/b47d41f3c27121110ea4019bc7e2fd29/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/magjan/.gradle/caches/transforms-3/b47d41f3c27121110ea4019bc7e2fd29/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/magjan/.gradle/caches/transforms-3/8ee8f586b9f1657453b4cf23c4fc5455/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/magjan/.gradle/caches/transforms-3/8ee8f586b9f1657453b4cf23c4fc5455/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/magjan/.gradle/caches/transforms-3/5b6837fdfb97706fc5671d9e60d6d861/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/magjan/.gradle/caches/transforms-3/5b6837fdfb97706fc5671d9e60d6d861/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-messaging-ktx:22.0.0] /home/magjan/.gradle/caches/transforms-3/7c0078a328ff80a2280763bc642599b8/transformed/jetified-firebase-messaging-ktx-22.0.0/AndroidManifest.xml:25:5-33:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:22.0.0] /home/magjan/.gradle/caches/transforms-3/7c0078a328ff80a2280763bc642599b8/transformed/jetified-firebase-messaging-ktx-22.0.0/AndroidManifest.xml:25:5-33:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/magjan/.gradle/caches/transforms-3/25b2619af366eaa6a3c70b77c7b7c9df/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/magjan/.gradle/caches/transforms-3/25b2619af366eaa6a3c70b77c7b7c9df/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:11:5-19:19
+MERGED from [androidx.room:room-runtime:2.4.0-alpha02] /home/magjan/.gradle/caches/transforms-3/ab23702bd0062f5ec7f499c470d1eec1/transformed/room-runtime-2.4.0-alpha02/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.0-alpha02] /home/magjan/.gradle/caches/transforms-3/ab23702bd0062f5ec7f499c470d1eec1/transformed/room-runtime-2.4.0-alpha02/AndroidManifest.xml:24:5-29:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/magjan/.gradle/caches/transforms-3/ff873a93b84a17ebb578a077608618ee/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/magjan/.gradle/caches/transforms-3/ff873a93b84a17ebb578a077608618ee/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/magjan/.gradle/caches/transforms-3/a21aa04690d0a51bdc4f7c6167dbb442/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/magjan/.gradle/caches/transforms-3/a21aa04690d0a51bdc4f7c6167dbb442/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/magjan/.gradle/caches/transforms-3/ce665695ed0ec42c9a8560726979f662/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/magjan/.gradle/caches/transforms-3/ce665695ed0ec42c9a8560726979f662/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/magjan/.gradle/caches/transforms-3/191024a164cc2fda73f6a056b6998cd5/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/magjan/.gradle/caches/transforms-3/191024a164cc2fda73f6a056b6998cd5/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/magjan/.gradle/caches/transforms-3/715fcad9b5a223e710714f4bd879d09c/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/magjan/.gradle/caches/transforms-3/715fcad9b5a223e710714f4bd879d09c/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] /home/magjan/.gradle/caches/transforms-3/2cae3290337c165004e2fab45e9df72d/transformed/jetified-firebase-appcheck-interop-16.0.0-beta04/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] /home/magjan/.gradle/caches/transforms-3/2cae3290337c165004e2fab45e9df72d/transformed/jetified-firebase-appcheck-interop-16.0.0-beta04/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/magjan/.gradle/caches/transforms-3/e2c26d6e12fccde42f444b6604298d42/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/magjan/.gradle/caches/transforms-3/e2c26d6e12fccde42f444b6604298d42/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/magjan/.gradle/caches/transforms-3/017538c5b1a553165ed93b17f02c2bfc/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/magjan/.gradle/caches/transforms-3/017538c5b1a553165ed93b17f02c2bfc/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/magjan/.gradle/caches/transforms-3/3c4a50cb5635141d7da6cfc0c0098a62/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/magjan/.gradle/caches/transforms-3/3c4a50cb5635141d7da6cfc0c0098a62/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/magjan/.gradle/caches/transforms-3/6c1d7e9c93195288b58c7a8be8418bc9/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/magjan/.gradle/caches/transforms-3/6c1d7e9c93195288b58c7a8be8418bc9/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/magjan/.gradle/caches/transforms-3/b6b39ae8ee4217e89e9a2e9be13503d0/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/magjan/.gradle/caches/transforms-3/b6b39ae8ee4217e89e9a2e9be13503d0/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/magjan/.gradle/caches/transforms-3/7a28b8506f025448ff97ca6b5ecd9ad9/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/magjan/.gradle/caches/transforms-3/7a28b8506f025448ff97ca6b5ecd9ad9/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/magjan/.gradle/caches/transforms-3/291cedbf534a85f3f21aa86d0962b94c/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/magjan/.gradle/caches/transforms-3/291cedbf534a85f3f21aa86d0962b94c/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /home/magjan/.gradle/caches/transforms-3/be52214dcfe4e66abb1aa3f844cd08a4/transformed/jetified-play-services-basement-17.2.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /home/magjan/.gradle/caches/transforms-3/be52214dcfe4e66abb1aa3f844cd08a4/transformed/jetified-play-services-basement-17.2.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/magjan/.gradle/caches/transforms-3/952dc9f7d05007996210e066ebc9fa60/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/magjan/.gradle/caches/transforms-3/952dc9f7d05007996210e066ebc9fa60/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /home/magjan/.gradle/caches/transforms-3/30af886d5ba6884973c185215bc0676f/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /home/magjan/.gradle/caches/transforms-3/30af886d5ba6884973c185215bc0676f/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/magjan/.gradle/caches/transforms-3/0d03a84ed05199cffed66b40008aa6f2/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/magjan/.gradle/caches/transforms-3/0d03a84ed05199cffed66b40008aa6f2/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/magjan/.gradle/caches/transforms-3/5681b0009722d1874dfb4c039654f70d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/magjan/.gradle/caches/transforms-3/5681b0009722d1874dfb4c039654f70d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/magjan/.gradle/caches/transforms-3/c0c83e1e9c84eb76757fbbb6e4d207f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/magjan/.gradle/caches/transforms-3/c0c83e1e9c84eb76757fbbb6e4d207f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/magjan/.gradle/caches/transforms-3/ac9d71aa4b5f69fa2f8a2ee1aaac578e/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/magjan/.gradle/caches/transforms-3/ac9d71aa4b5f69fa2f8a2ee1aaac578e/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/magjan/.gradle/caches/transforms-3/ff52577fea74ee3e3ab84488060d0775/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/magjan/.gradle/caches/transforms-3/ff52577fea74ee3e3ab84488060d0775/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/magjan/.gradle/caches/transforms-3/21ce3b8b9ec6c10c3c2b7acbfb16d463/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/magjan/.gradle/caches/transforms-3/21ce3b8b9ec6c10c3c2b7acbfb16d463/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:25:5-39:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /home/magjan/.gradle/caches/transforms-3/30af886d5ba6884973c185215bc0676f/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:12:9-43
+	android:name
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:6:9-43
+activity#com.unava.dia.weatherforecast.ui.main.MainActivity
+ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:14:9-23:20
+	android:exported
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:15:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:21:27-74
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/magjan/.gradle/caches/transforms-3/ce665695ed0ec42c9a8560726979f662/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/magjan/.gradle/caches/transforms-3/ce665695ed0ec42c9a8560726979f662/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/magjan/.gradle/caches/transforms-3/715fcad9b5a223e710714f4bd879d09c/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/magjan/.gradle/caches/transforms-3/715fcad9b5a223e710714f4bd879d09c/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/magjan/.gradle/caches/transforms-3/48cfdbdd9453f70d0ee5842364f51d6a/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/magjan/.gradle/caches/transforms-3/48cfdbdd9453f70d0ee5842364f51d6a/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/magjan/.gradle/caches/transforms-3/ff52577fea74ee3e3ab84488060d0775/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/magjan/.gradle/caches/transforms-3/ff52577fea74ee3e3ab84488060d0775/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:26:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:28:5-81
+	android:name
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml:28:22-78
+uses-sdk
+INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml
+INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.1.3] /home/magjan/.gradle/caches/transforms-3/e34b4ddb334eaf00a99c2c6ae5eae04c/transformed/jetified-viewbinding-7.1.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.3] /home/magjan/.gradle/caches/transforms-3/e34b4ddb334eaf00a99c2c6ae5eae04c/transformed/jetified-viewbinding-7.1.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] /home/magjan/.gradle/caches/transforms-3/4d8965efd7e56b97fdc6efa185961aa3/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] /home/magjan/.gradle/caches/transforms-3/4d8965efd7e56b97fdc6efa185961aa3/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.0-alpha02] /home/magjan/.gradle/caches/transforms-3/24f11c12e0ad93b465438f77a93475f0/transformed/jetified-room-ktx-2.4.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.0-alpha02] /home/magjan/.gradle/caches/transforms-3/24f11c12e0ad93b465438f77a93475f0/transformed/jetified-room-ktx-2.4.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] /home/magjan/.gradle/caches/transforms-3/94f1598045dc5c7c3d545ef6b08bc55e/transformed/jetified-lifecycle-livedata-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] /home/magjan/.gradle/caches/transforms-3/94f1598045dc5c7c3d545ef6b08bc55e/transformed/jetified-lifecycle-livedata-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /home/magjan/.gradle/caches/transforms-3/3802582875c001f73f46a614acb7f652/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /home/magjan/.gradle/caches/transforms-3/3802582875c001f73f46a614acb7f652/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.4.0] /home/magjan/.gradle/caches/transforms-3/0a7b5e91e093a348160f1693fb73e28f/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /home/magjan/.gradle/caches/transforms-3/0a7b5e91e093a348160f1693fb73e28f/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/magjan/.gradle/caches/transforms-3/b47d41f3c27121110ea4019bc7e2fd29/transformed/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/magjan/.gradle/caches/transforms-3/b47d41f3c27121110ea4019bc7e2fd29/transformed/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] /home/magjan/.gradle/caches/transforms-3/a52d7ed3a31a0a13e44670ddc7d0bd8f/transformed/appcompat-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] /home/magjan/.gradle/caches/transforms-3/a52d7ed3a31a0a13e44670ddc7d0bd8f/transformed/appcompat-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/magjan/.gradle/caches/transforms-3/8ee8f586b9f1657453b4cf23c4fc5455/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/magjan/.gradle/caches/transforms-3/8ee8f586b9f1657453b4cf23c4fc5455/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] /home/magjan/.gradle/caches/transforms-3/5bbdb75c97b6134ca9dfa077d33d14ee/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /home/magjan/.gradle/caches/transforms-3/5bbdb75c97b6134ca9dfa077d33d14ee/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.dagger:hilt-android:2.40.4] /home/magjan/.gradle/caches/transforms-3/38a8ac2ca56dc21c8f00027f3ea7b33e/transformed/jetified-hilt-android-2.40.4/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.40.4] /home/magjan/.gradle/caches/transforms-3/38a8ac2ca56dc21c8f00027f3ea7b33e/transformed/jetified-hilt-android-2.40.4/AndroidManifest.xml:18:3-42
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/magjan/.gradle/caches/transforms-3/31b25426ba7468f52cdc2e1fb2dd2176/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/magjan/.gradle/caches/transforms-3/31b25426ba7468f52cdc2e1fb2dd2176/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/magjan/.gradle/caches/transforms-3/5b6837fdfb97706fc5671d9e60d6d861/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/magjan/.gradle/caches/transforms-3/5b6837fdfb97706fc5671d9e60d6d861/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-messaging-ktx:22.0.0] /home/magjan/.gradle/caches/transforms-3/7c0078a328ff80a2280763bc642599b8/transformed/jetified-firebase-messaging-ktx-22.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-messaging-ktx:22.0.0] /home/magjan/.gradle/caches/transforms-3/7c0078a328ff80a2280763bc642599b8/transformed/jetified-firebase-messaging-ktx-22.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/magjan/.gradle/caches/transforms-3/25b2619af366eaa6a3c70b77c7b7c9df/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/magjan/.gradle/caches/transforms-3/25b2619af366eaa6a3c70b77c7b7c9df/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.room:room-runtime:2.4.0-alpha02] /home/magjan/.gradle/caches/transforms-3/ab23702bd0062f5ec7f499c470d1eec1/transformed/room-runtime-2.4.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.0-alpha02] /home/magjan/.gradle/caches/transforms-3/ab23702bd0062f5ec7f499c470d1eec1/transformed/room-runtime-2.4.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/magjan/.gradle/caches/transforms-3/ebf27f369c2341fd5aa123cba410d1c7/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/magjan/.gradle/caches/transforms-3/ebf27f369c2341fd5aa123cba410d1c7/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/magjan/.gradle/caches/transforms-3/294525cad20ca7cfb4dd968a2cc4845d/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/magjan/.gradle/caches/transforms-3/294525cad20ca7cfb4dd968a2cc4845d/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] /home/magjan/.gradle/caches/transforms-3/b70f56dcc117caa1e415237490dc532d/transformed/recyclerview-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] /home/magjan/.gradle/caches/transforms-3/b70f56dcc117caa1e415237490dc532d/transformed/recyclerview-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/magjan/.gradle/caches/transforms-3/3c63e42266e647f67c04c06a7f6401ea/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/magjan/.gradle/caches/transforms-3/3c63e42266e647f67c04c06a7f6401ea/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/magjan/.gradle/caches/transforms-3/8403e13d0237d841196b71e5c7821fda/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/magjan/.gradle/caches/transforms-3/8403e13d0237d841196b71e5c7821fda/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/magjan/.gradle/caches/transforms-3/ff873a93b84a17ebb578a077608618ee/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/magjan/.gradle/caches/transforms-3/ff873a93b84a17ebb578a077608618ee/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/magjan/.gradle/caches/transforms-3/a21aa04690d0a51bdc4f7c6167dbb442/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/magjan/.gradle/caches/transforms-3/a21aa04690d0a51bdc4f7c6167dbb442/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/magjan/.gradle/caches/transforms-3/ce665695ed0ec42c9a8560726979f662/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/magjan/.gradle/caches/transforms-3/ce665695ed0ec42c9a8560726979f662/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/magjan/.gradle/caches/transforms-3/191024a164cc2fda73f6a056b6998cd5/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/magjan/.gradle/caches/transforms-3/191024a164cc2fda73f6a056b6998cd5/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/magjan/.gradle/caches/transforms-3/715fcad9b5a223e710714f4bd879d09c/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/magjan/.gradle/caches/transforms-3/715fcad9b5a223e710714f4bd879d09c/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] /home/magjan/.gradle/caches/transforms-3/2cae3290337c165004e2fab45e9df72d/transformed/jetified-firebase-appcheck-interop-16.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] /home/magjan/.gradle/caches/transforms-3/2cae3290337c165004e2fab45e9df72d/transformed/jetified-firebase-appcheck-interop-16.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/magjan/.gradle/caches/transforms-3/e2c26d6e12fccde42f444b6604298d42/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/magjan/.gradle/caches/transforms-3/e2c26d6e12fccde42f444b6604298d42/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/magjan/.gradle/caches/transforms-3/017538c5b1a553165ed93b17f02c2bfc/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/magjan/.gradle/caches/transforms-3/017538c5b1a553165ed93b17f02c2bfc/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/magjan/.gradle/caches/transforms-3/48cfdbdd9453f70d0ee5842364f51d6a/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/magjan/.gradle/caches/transforms-3/48cfdbdd9453f70d0ee5842364f51d6a/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/magjan/.gradle/caches/transforms-3/3c4a50cb5635141d7da6cfc0c0098a62/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/magjan/.gradle/caches/transforms-3/3c4a50cb5635141d7da6cfc0c0098a62/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/magjan/.gradle/caches/transforms-3/f556286c8ed218dd0dfa9bf0bd9c5b0d/transformed/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/magjan/.gradle/caches/transforms-3/f556286c8ed218dd0dfa9bf0bd9c5b0d/transformed/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/magjan/.gradle/caches/transforms-3/8f1eea2fa6f66dbd638c8f15f6f3ce7e/transformed/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/magjan/.gradle/caches/transforms-3/8f1eea2fa6f66dbd638c8f15f6f3ce7e/transformed/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/magjan/.gradle/caches/transforms-3/6c1d7e9c93195288b58c7a8be8418bc9/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/magjan/.gradle/caches/transforms-3/6c1d7e9c93195288b58c7a8be8418bc9/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/magjan/.gradle/caches/transforms-3/b6b39ae8ee4217e89e9a2e9be13503d0/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/magjan/.gradle/caches/transforms-3/b6b39ae8ee4217e89e9a2e9be13503d0/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/magjan/.gradle/caches/transforms-3/7a28b8506f025448ff97ca6b5ecd9ad9/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/magjan/.gradle/caches/transforms-3/7a28b8506f025448ff97ca6b5ecd9ad9/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/magjan/.gradle/caches/transforms-3/291cedbf534a85f3f21aa86d0962b94c/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/magjan/.gradle/caches/transforms-3/291cedbf534a85f3f21aa86d0962b94c/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /home/magjan/.gradle/caches/transforms-3/be52214dcfe4e66abb1aa3f844cd08a4/transformed/jetified-play-services-basement-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /home/magjan/.gradle/caches/transforms-3/be52214dcfe4e66abb1aa3f844cd08a4/transformed/jetified-play-services-basement-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /home/magjan/.gradle/caches/transforms-3/21b9e2518ddd434f875dfd20c69fcca4/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/magjan/.gradle/caches/transforms-3/21b9e2518ddd434f875dfd20c69fcca4/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /home/magjan/.gradle/caches/transforms-3/4c104efff8ebdef9ec8d719002db41b8/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /home/magjan/.gradle/caches/transforms-3/4c104efff8ebdef9ec8d719002db41b8/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/magjan/.gradle/caches/transforms-3/7ee416269acd398604757fbcac130a01/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/magjan/.gradle/caches/transforms-3/7ee416269acd398604757fbcac130a01/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/magjan/.gradle/caches/transforms-3/f85647626f064d140c97184bdae46834/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/magjan/.gradle/caches/transforms-3/f85647626f064d140c97184bdae46834/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/magjan/.gradle/caches/transforms-3/952dc9f7d05007996210e066ebc9fa60/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/magjan/.gradle/caches/transforms-3/952dc9f7d05007996210e066ebc9fa60/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/magjan/.gradle/caches/transforms-3/998dc9306c810c2800349aabbd655e15/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/magjan/.gradle/caches/transforms-3/998dc9306c810c2800349aabbd655e15/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/magjan/.gradle/caches/transforms-3/2555bd30e8d5f0644e61b7e8da4f121e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/magjan/.gradle/caches/transforms-3/2555bd30e8d5f0644e61b7e8da4f121e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/magjan/.gradle/caches/transforms-3/ec718f88d81831135d6b3a7166f86d5c/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/magjan/.gradle/caches/transforms-3/ec718f88d81831135d6b3a7166f86d5c/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/magjan/.gradle/caches/transforms-3/4bc7baf7c99be6975b1b50250e98e3d5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/magjan/.gradle/caches/transforms-3/4bc7baf7c99be6975b1b50250e98e3d5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/magjan/.gradle/caches/transforms-3/930d04f505c3fa8b9b7b183616b7073f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/magjan/.gradle/caches/transforms-3/930d04f505c3fa8b9b7b183616b7073f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.3.1] /home/magjan/.gradle/caches/transforms-3/60e0addd88fe25f5f707cc6d82426d1c/transformed/jetified-activity-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.3.1] /home/magjan/.gradle/caches/transforms-3/60e0addd88fe25f5f707cc6d82426d1c/transformed/jetified-activity-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /home/magjan/.gradle/caches/transforms-3/3ed6cb1d61029b22c9fa93839b6ef4a2/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/magjan/.gradle/caches/transforms-3/3ed6cb1d61029b22c9fa93839b6ef4a2/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/magjan/.gradle/caches/transforms-3/84137e6bbc9ae180bb461db9f29a0025/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/magjan/.gradle/caches/transforms-3/84137e6bbc9ae180bb461db9f29a0025/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/magjan/.gradle/caches/transforms-3/7b0938f87cd4ca997827e9ee4dabdb2e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/magjan/.gradle/caches/transforms-3/7b0938f87cd4ca997827e9ee4dabdb2e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/magjan/.gradle/caches/transforms-3/7ea6c1911d3ab9b38f5c16b0ba57f764/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/magjan/.gradle/caches/transforms-3/7ea6c1911d3ab9b38f5c16b0ba57f764/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/magjan/.gradle/caches/transforms-3/e82c3b3b8c6810c6e95bdf305d94c3ae/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/magjan/.gradle/caches/transforms-3/e82c3b3b8c6810c6e95bdf305d94c3ae/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/magjan/.gradle/caches/transforms-3/e2225bcd6fd7280aee190f954e3804ad/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/magjan/.gradle/caches/transforms-3/e2225bcd6fd7280aee190f954e3804ad/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/magjan/.gradle/caches/transforms-3/f52cab98ecbdc9e815d8ae9b2e440aef/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/magjan/.gradle/caches/transforms-3/f52cab98ecbdc9e815d8ae9b2e440aef/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /home/magjan/.gradle/caches/transforms-3/30af886d5ba6884973c185215bc0676f/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/magjan/.gradle/caches/transforms-3/30af886d5ba6884973c185215bc0676f/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/magjan/.gradle/caches/transforms-3/d1d290ce7fda9846cf7233c36443deb9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/magjan/.gradle/caches/transforms-3/d1d290ce7fda9846cf7233c36443deb9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/magjan/.gradle/caches/transforms-3/c3a1bd6d85d801193c87decedcab2e47/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/magjan/.gradle/caches/transforms-3/c3a1bd6d85d801193c87decedcab2e47/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/magjan/.gradle/caches/transforms-3/8a8ad28e2c9bf1bf7e1187cfc6bfe87d/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/magjan/.gradle/caches/transforms-3/8a8ad28e2c9bf1bf7e1187cfc6bfe87d/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] /home/magjan/.gradle/caches/transforms-3/ca52569bd4898d44e661b9765d277fa1/transformed/lifecycle-viewmodel-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] /home/magjan/.gradle/caches/transforms-3/ca52569bd4898d44e661b9765d277fa1/transformed/lifecycle-viewmodel-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/magjan/.gradle/caches/transforms-3/0d03a84ed05199cffed66b40008aa6f2/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/magjan/.gradle/caches/transforms-3/0d03a84ed05199cffed66b40008aa6f2/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/magjan/.gradle/caches/transforms-3/d260447d3343f59384c6269013732f2d/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/magjan/.gradle/caches/transforms-3/d260447d3343f59384c6269013732f2d/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/magjan/.gradle/caches/transforms-3/35505ebcd7676dd7d94fdb4637ef92e6/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/magjan/.gradle/caches/transforms-3/35505ebcd7676dd7d94fdb4637ef92e6/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/magjan/.gradle/caches/transforms-3/1d1ae0a36c8f2602dbd4a23574905675/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/magjan/.gradle/caches/transforms-3/1d1ae0a36c8f2602dbd4a23574905675/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/magjan/.gradle/caches/transforms-3/8268854d64a7bb691ffcebd60a1455cd/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/magjan/.gradle/caches/transforms-3/8268854d64a7bb691ffcebd60a1455cd/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/magjan/.gradle/caches/transforms-3/5681b0009722d1874dfb4c039654f70d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/magjan/.gradle/caches/transforms-3/5681b0009722d1874dfb4c039654f70d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/magjan/.gradle/caches/transforms-3/c0c83e1e9c84eb76757fbbb6e4d207f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/magjan/.gradle/caches/transforms-3/c0c83e1e9c84eb76757fbbb6e4d207f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/magjan/.gradle/caches/transforms-3/ac9d71aa4b5f69fa2f8a2ee1aaac578e/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/magjan/.gradle/caches/transforms-3/ac9d71aa4b5f69fa2f8a2ee1aaac578e/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /home/magjan/.gradle/caches/transforms-3/c57859b7e933f3f333b2d9a02494ceb9/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /home/magjan/.gradle/caches/transforms-3/c57859b7e933f3f333b2d9a02494ceb9/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] /home/magjan/.gradle/caches/transforms-3/ea88e9515d1fa7d202c07de269284319/transformed/jetified-lifecycle-livedata-core-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] /home/magjan/.gradle/caches/transforms-3/ea88e9515d1fa7d202c07de269284319/transformed/jetified-lifecycle-livedata-core-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] /home/magjan/.gradle/caches/transforms-3/c1b253f6010fdc39343a22a21650959b/transformed/lifecycle-livedata-core-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] /home/magjan/.gradle/caches/transforms-3/c1b253f6010fdc39343a22a21650959b/transformed/lifecycle-livedata-core-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/magjan/.gradle/caches/transforms-3/0f1dd19807b856429e7ff222886f7235/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/magjan/.gradle/caches/transforms-3/0f1dd19807b856429e7ff222886f7235/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/magjan/.gradle/caches/transforms-3/c2debbe4fdb243b01eef39e4541ad031/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/magjan/.gradle/caches/transforms-3/c2debbe4fdb243b01eef39e4541ad031/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/magjan/.gradle/caches/transforms-3/028766cdaa6681fb2cf84ccb17e6bdce/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/magjan/.gradle/caches/transforms-3/028766cdaa6681fb2cf84ccb17e6bdce/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/magjan/.gradle/caches/transforms-3/68a89401943806c3df13114a75a7d899/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/magjan/.gradle/caches/transforms-3/68a89401943806c3df13114a75a7d899/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/magjan/.gradle/caches/transforms-3/0861a0a281b149dce46707915d5a9b05/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/magjan/.gradle/caches/transforms-3/0861a0a281b149dce46707915d5a9b05/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/magjan/.gradle/caches/transforms-3/423dbd124bd8aeedf22e26218ee9da95/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/magjan/.gradle/caches/transforms-3/423dbd124bd8aeedf22e26218ee9da95/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/magjan/.gradle/caches/transforms-3/ff52577fea74ee3e3ab84488060d0775/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/magjan/.gradle/caches/transforms-3/ff52577fea74ee3e3ab84488060d0775/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/magjan/.gradle/caches/transforms-3/21ce3b8b9ec6c10c3c2b7acbfb16d463/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/magjan/.gradle/caches/transforms-3/21ce3b8b9ec6c10c3c2b7acbfb16d463/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/magjan/.gradle/caches/transforms-3/518b13f2c53dfa6d08cea3d3442c85ff/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/magjan/.gradle/caches/transforms-3/518b13f2c53dfa6d08cea3d3442c85ff/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/magjan/.gradle/caches/transforms-3/f6dab8b540bb51a90a9ea4c2ba40302b/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/magjan/.gradle/caches/transforms-3/f6dab8b540bb51a90a9ea4c2ba40302b/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/magjan/.gradle/caches/transforms-3/1d1ea9463d2dd74c0e6bd203c567a8b0/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/magjan/.gradle/caches/transforms-3/1d1ea9463d2dd74c0e6bd203c567a8b0/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.40.4] /home/magjan/.gradle/caches/transforms-3/3e8e52797d8afc373572583ee46172b5/transformed/jetified-dagger-lint-aar-2.40.4/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.40.4] /home/magjan/.gradle/caches/transforms-3/3e8e52797d8afc373572583ee46172b5/transformed/jetified-dagger-lint-aar-2.40.4/AndroidManifest.xml:18:3-42
+INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml
+INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml
+		INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml
+		ADDED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml
+		INJECTED from /home/magjan/AndroidStudioProjects/WeatherForecast/app/src/main/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging-ktx:22.0.0] /home/magjan/.gradle/caches/transforms-3/7c0078a328ff80a2280763bc642599b8/transformed/jetified-firebase-messaging-ktx-22.0.0/AndroidManifest.xml:26:9-32:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/magjan/.gradle/caches/transforms-3/25b2619af366eaa6a3c70b77c7b7c9df/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/magjan/.gradle/caches/transforms-3/25b2619af366eaa6a3c70b77c7b7c9df/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/magjan/.gradle/caches/transforms-3/a21aa04690d0a51bdc4f7c6167dbb442/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/magjan/.gradle/caches/transforms-3/a21aa04690d0a51bdc4f7c6167dbb442/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/magjan/.gradle/caches/transforms-3/ce665695ed0ec42c9a8560726979f662/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/magjan/.gradle/caches/transforms-3/ce665695ed0ec42c9a8560726979f662/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/magjan/.gradle/caches/transforms-3/191024a164cc2fda73f6a056b6998cd5/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /home/magjan/.gradle/caches/transforms-3/191024a164cc2fda73f6a056b6998cd5/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/magjan/.gradle/caches/transforms-3/715fcad9b5a223e710714f4bd879d09c/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/magjan/.gradle/caches/transforms-3/715fcad9b5a223e710714f4bd879d09c/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/magjan/.gradle/caches/transforms-3/017538c5b1a553165ed93b17f02c2bfc/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/magjan/.gradle/caches/transforms-3/017538c5b1a553165ed93b17f02c2bfc/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging-ktx:22.0.0] /home/magjan/.gradle/caches/transforms-3/7c0078a328ff80a2280763bc642599b8/transformed/jetified-firebase-messaging-ktx-22.0.0/AndroidManifest.xml:28:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/magjan/.gradle/caches/transforms-3/017538c5b1a553165ed93b17f02c2bfc/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/magjan/.gradle/caches/transforms-3/017538c5b1a553165ed93b17f02c2bfc/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging-ktx:22.0.0] /home/magjan/.gradle/caches/transforms-3/7c0078a328ff80a2280763bc642599b8/transformed/jetified-firebase-messaging-ktx-22.0.0/AndroidManifest.xml:27:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging-ktx:22.0.0] /home/magjan/.gradle/caches/transforms-3/7c0078a328ff80a2280763bc642599b8/transformed/jetified-firebase-messaging-ktx-22.0.0/AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging-ktx:22.0.0] /home/magjan/.gradle/caches/transforms-3/7c0078a328ff80a2280763bc642599b8/transformed/jetified-firebase-messaging-ktx-22.0.0/AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging-ktx:22.0.0] /home/magjan/.gradle/caches/transforms-3/7c0078a328ff80a2280763bc642599b8/transformed/jetified-firebase-messaging-ktx-22.0.0/AndroidManifest.xml:30:17-126
+meta-data#com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/magjan/.gradle/caches/transforms-3/25b2619af366eaa6a3c70b77c7b7c9df/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/magjan/.gradle/caches/transforms-3/25b2619af366eaa6a3c70b77c7b7c9df/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/magjan/.gradle/caches/transforms-3/25b2619af366eaa6a3c70b77c7b7c9df/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:16:17-124
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.0-alpha02] /home/magjan/.gradle/caches/transforms-3/ab23702bd0062f5ec7f499c470d1eec1/transformed/room-runtime-2.4.0-alpha02/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.0-alpha02] /home/magjan/.gradle/caches/transforms-3/ab23702bd0062f5ec7f499c470d1eec1/transformed/room-runtime-2.4.0-alpha02/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.0-alpha02] /home/magjan/.gradle/caches/transforms-3/ab23702bd0062f5ec7f499c470d1eec1/transformed/room-runtime-2.4.0-alpha02/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.0-alpha02] /home/magjan/.gradle/caches/transforms-3/ab23702bd0062f5ec7f499c470d1eec1/transformed/room-runtime-2.4.0-alpha02/AndroidManifest.xml:26:13-74
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/magjan/.gradle/caches/transforms-3/a21aa04690d0a51bdc4f7c6167dbb442/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/magjan/.gradle/caches/transforms-3/a21aa04690d0a51bdc4f7c6167dbb442/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/magjan/.gradle/caches/transforms-3/a21aa04690d0a51bdc4f7c6167dbb442/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:16:17-113
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/magjan/.gradle/caches/transforms-3/ce665695ed0ec42c9a8560726979f662/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/magjan/.gradle/caches/transforms-3/ce665695ed0ec42c9a8560726979f662/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/magjan/.gradle/caches/transforms-3/715fcad9b5a223e710714f4bd879d09c/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/magjan/.gradle/caches/transforms-3/715fcad9b5a223e710714f4bd879d09c/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/magjan/.gradle/caches/transforms-3/48cfdbdd9453f70d0ee5842364f51d6a/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/magjan/.gradle/caches/transforms-3/48cfdbdd9453f70d0ee5842364f51d6a/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/magjan/.gradle/caches/transforms-3/ff52577fea74ee3e3ab84488060d0775/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/magjan/.gradle/caches/transforms-3/ff52577fea74ee3e3ab84488060d0775/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/magjan/.gradle/caches/transforms-3/21ce3b8b9ec6c10c3c2b7acbfb16d463/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/magjan/.gradle/caches/transforms-3/21ce3b8b9ec6c10c3c2b7acbfb16d463/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:23:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/magjan/.gradle/caches/transforms-3/48cfdbdd9453f70d0ee5842364f51d6a/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/magjan/.gradle/caches/transforms-3/48cfdbdd9453f70d0ee5842364f51d6a/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:23:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/magjan/.gradle/caches/transforms-3/48cfdbdd9453f70d0ee5842364f51d6a/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /home/magjan/.gradle/caches/transforms-3/48cfdbdd9453f70d0ee5842364f51d6a/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:32:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:25-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:45:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:46:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:46:25-75
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /home/magjan/.gradle/caches/transforms-3/a10de193f31104391d9af7b69bc549e7/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.0.3] /home/magjan/.gradle/caches/transforms-3/ce665695ed0ec42c9a8560726979f662/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.0.3] /home/magjan/.gradle/caches/transforms-3/ce665695ed0ec42c9a8560726979f662/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.3] /home/magjan/.gradle/caches/transforms-3/ce665695ed0ec42c9a8560726979f662/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /home/magjan/.gradle/caches/transforms-3/191024a164cc2fda73f6a056b6998cd5/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /home/magjan/.gradle/caches/transforms-3/191024a164cc2fda73f6a056b6998cd5/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /home/magjan/.gradle/caches/transforms-3/191024a164cc2fda73f6a056b6998cd5/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/magjan/.gradle/caches/transforms-3/715fcad9b5a223e710714f4bd879d09c/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/magjan/.gradle/caches/transforms-3/715fcad9b5a223e710714f4bd879d09c/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/magjan/.gradle/caches/transforms-3/715fcad9b5a223e710714f4bd879d09c/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /home/magjan/.gradle/caches/transforms-3/017538c5b1a553165ed93b17f02c2bfc/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/magjan/.gradle/caches/transforms-3/017538c5b1a553165ed93b17f02c2bfc/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/magjan/.gradle/caches/transforms-3/017538c5b1a553165ed93b17f02c2bfc/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/magjan/.gradle/caches/transforms-3/017538c5b1a553165ed93b17f02c2bfc/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/magjan/.gradle/caches/transforms-3/017538c5b1a553165ed93b17f02c2bfc/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/magjan/.gradle/caches/transforms-3/017538c5b1a553165ed93b17f02c2bfc/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/magjan/.gradle/caches/transforms-3/6c1d7e9c93195288b58c7a8be8418bc9/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/magjan/.gradle/caches/transforms-3/6c1d7e9c93195288b58c7a8be8418bc9/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/magjan/.gradle/caches/transforms-3/6c1d7e9c93195288b58c7a8be8418bc9/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/magjan/.gradle/caches/transforms-3/6c1d7e9c93195288b58c7a8be8418bc9/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.2.1] /home/magjan/.gradle/caches/transforms-3/be52214dcfe4e66abb1aa3f844cd08a4/transformed/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.2.1] /home/magjan/.gradle/caches/transforms-3/be52214dcfe4e66abb1aa3f844cd08a4/transformed/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.2.1] /home/magjan/.gradle/caches/transforms-3/be52214dcfe4e66abb1aa3f844cd08a4/transformed/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/magjan/.gradle/caches/transforms-3/952dc9f7d05007996210e066ebc9fa60/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/magjan/.gradle/caches/transforms-3/c0c83e1e9c84eb76757fbbb6e4d207f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/magjan/.gradle/caches/transforms-3/c0c83e1e9c84eb76757fbbb6e4d207f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/magjan/.gradle/caches/transforms-3/ac9d71aa4b5f69fa2f8a2ee1aaac578e/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/magjan/.gradle/caches/transforms-3/ac9d71aa4b5f69fa2f8a2ee1aaac578e/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/magjan/.gradle/caches/transforms-3/952dc9f7d05007996210e066ebc9fa60/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/magjan/.gradle/caches/transforms-3/952dc9f7d05007996210e066ebc9fa60/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/magjan/.gradle/caches/transforms-3/952dc9f7d05007996210e066ebc9fa60/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/magjan/.gradle/caches/transforms-3/952dc9f7d05007996210e066ebc9fa60/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/magjan/.gradle/caches/transforms-3/952dc9f7d05007996210e066ebc9fa60/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/magjan/.gradle/caches/transforms-3/952dc9f7d05007996210e066ebc9fa60/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/magjan/.gradle/caches/transforms-3/952dc9f7d05007996210e066ebc9fa60/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/magjan/.gradle/caches/transforms-3/c0c83e1e9c84eb76757fbbb6e4d207f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/magjan/.gradle/caches/transforms-3/c0c83e1e9c84eb76757fbbb6e4d207f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/magjan/.gradle/caches/transforms-3/c0c83e1e9c84eb76757fbbb6e4d207f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/magjan/.gradle/caches/transforms-3/ff52577fea74ee3e3ab84488060d0775/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/magjan/.gradle/caches/transforms-3/21ce3b8b9ec6c10c3c2b7acbfb16d463/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/magjan/.gradle/caches/transforms-3/21ce3b8b9ec6c10c3c2b7acbfb16d463/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/magjan/.gradle/caches/transforms-3/ff52577fea74ee3e3ab84488060d0775/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/magjan/.gradle/caches/transforms-3/ff52577fea74ee3e3ab84488060d0775/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/magjan/.gradle/caches/transforms-3/ff52577fea74ee3e3ab84488060d0775/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/magjan/.gradle/caches/transforms-3/ff52577fea74ee3e3ab84488060d0775/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /home/magjan/.gradle/caches/transforms-3/ff52577fea74ee3e3ab84488060d0775/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/magjan/.gradle/caches/transforms-3/21ce3b8b9ec6c10c3c2b7acbfb16d463/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/magjan/.gradle/caches/transforms-3/21ce3b8b9ec6c10c3c2b7acbfb16d463/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/magjan/.gradle/caches/transforms-3/21ce3b8b9ec6c10c3c2b7acbfb16d463/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/magjan/.gradle/caches/transforms-3/21ce3b8b9ec6c10c3c2b7acbfb16d463/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/magjan/.gradle/caches/transforms-3/21ce3b8b9ec6c10c3c2b7acbfb16d463/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/magjan/.gradle/caches/transforms-3/21ce3b8b9ec6c10c3c2b7acbfb16d463/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /home/magjan/.gradle/caches/transforms-3/21ce3b8b9ec6c10c3c2b7acbfb16d463/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
